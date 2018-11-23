@@ -1,0 +1,62 @@
+html, body {
+	height: 100%;
+}
+
+label {
+	display: block;
+	text-align: center;
+	font-size: 23px;
+}
+
+.container {
+	max-width: 100%;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	background: url('images/weather3.jpg') no-repeat;
+	background-position: 0 -200px;
+	overflow: auto;
+}
+
+.search-form {
+	width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.weather-card {
+	background-color: white;
+	display: none;
+	width: 250px;
+	margin: 0 auto;
+	margin-top: 50px;
+	border-radius: 5%;
+	padding: 15px;
+}
+
+.show {
+	display: block;
+}
+
+.row {
+	align-items: center;
+}
+
+#search-btn {
+	margin: 0 auto;
+	display: block;
+}
+
+#temp {
+	font-size: 40px;
+}
+
+#temp-img img {
+	width: 80px;
+}
+
+#temp-text {
+	text-align: center;
+	font-size: 18px;
+}
+
